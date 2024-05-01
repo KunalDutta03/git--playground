@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        p{
+            border: 1px dashed red;
+            font-family: fantasy;
+            font-size: 20px;
+        }
+        #redElement{
+            color: red;
+            background-color: cyan;
+        }
+        /* p is a element selector  */
+        .rd3{
+            color: coral;
+        }
+        .bgBlue{
+            background-color: blue;
+        }
+        /* p is a element selector  */
+        footer, span{
+            background-color: pink;
+        }
+        /* grouping selector */
+
+    </style>
+</head>
+<body>
+    <h2>SELECTORS in CSS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio error possimus! Sint temporibus quasi.</p>
+    <p id="redElement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio error possimus! Sint temporibus quasi.</p>
+    <div>
+        <p id="Para3" class="rd3 bgBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio error possimus! Sint temporibus quasi.</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, reiciendis!</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, reiciendis!</span>
+    </div>
+    <div>
+        <p class="bgBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officiis accusantium est.</p>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>

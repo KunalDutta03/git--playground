@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGNMENT</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <style>
+        * {}
+
+        .container {
+            width: 800px;
+            border: 6px solid lawngreen;
+            margin: 34px auto;
+            background-color: blanchedalmond;
+            font-family: 'Acme', sans-serif;
+        }
+
+        .item {
+            border: 4px dashed orchid;
+            margin: 12px 8px;
+            padding: 25px 15px;
+            background-color: rgba(0, 0, 255, 0.146);
+        }
+        #animal{
+            float: left;
+            width: 35% ;
+        }
+        #cloth{
+            float: right;
+            width: 35% ;
+        }
+        #dish{
+            /* float: left; */
+            width: 85% ;
+            /* clear: left; */
+            /* clear: left; means no float left will be allowed to overlap  */
+            clear: both;
+        }
+        p,h2{
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+            margin: 23px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>WELCOM TO WEBSITE</h1>
+        <div id="animal" class="item">
+            <h2>ANIMAL</h2>
+            <p id="animalP" class="para">
+                This is a TIGER. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsum ipsam aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates quidem error ex laudantium, perferendis mollitia delectus magnam adipisci reiciendis autem? Rem velit earum voluptates voluptatibus porro magni cum, consequuntur possimus!
+                sapiente omnis! Error velit sit veniam, amet rem sed incidunt dolorem odit reprehenderit.
+            </p>
+        </div>
+
+
+        <div id="cloth" class="item">
+            <h2>CLOTHS</h2>
+            <p id="clothP" class="para">
+                This is a SHIRT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quidem repudiandae Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eligendi aliquid suscipit, ratione reiciendis, a praesentium ipsum asperiores consequuntur repellendus necessitatibus molestiae, veritatis voluptates corporis! Culpa nulla iste hic architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero.
+                tenetur officia? Nihil dignissimos debitis iure excepturi corporis laboriosam itaque harum vel, facere
+                pariatur.
+            </p>
+        </div>
+
+
+        <div id="dish" class="item">
+            <h2>DISHES</h2>
+            <p id="dishP" class="para">
+                This is a BUTTER CHICKEN. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit alias, nihil
+                vero, animi et minima commodi atque ex saepe dolore accusantium magnam obcaecati qui.
+            </p>
+        </div>
+        <div id="glass" class="item">
+            <h2>Glass</h2>
+            <p id="glassP" class="para">
+                This is a BUTTER CHICKEN. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit alias, nihil
+                vero, animi et minima commodi atque ex saepe dolore accusantium magnam obcaecati qui.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

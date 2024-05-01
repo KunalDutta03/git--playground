@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and backgrounds</title>
+    <style>
+        #firstP {
+            color: blue;
+            background-color: aqua;
+            height: 50px;
+            width: 43pt;
+            border: 10px;
+            border-width: 3px;
+            border-style: dashed;
+            border-radius: 20%;
+
+        }
+
+        #a2ndP {
+            color: rgba(168, 18, 110, 0.849);
+            /* rgba is used for color editing but with opacity */
+            background-color: aqua;
+            height: 50px;
+            width: 43pt;
+            border-top: 3px double green;
+            border-bottom: 3px double blue;
+            border-left: 3px dashed rgb(38, 96, 135);
+            border-right: 3px dashed rgb(215, 153, 7);
+            border-top-left-radius: 20%;
+            border-bottom-left-radius: 40%;
+            border-bottom-right-radius: 20%;
+            border-top-right-radius: 40%;
+
+
+
+        }
+
+        #a3rdP {
+            color: rgb(125, 186, 60);
+            background-color: aqua;
+            height: 50px;
+            width: 43pt;
+            border: 2px dashed red;
+        }
+
+        #a4thP {
+            height: 580px;
+            width: 800px;
+            border: 8px double rgb(17, 194, 218);
+            background-image: url('https://i.quotev.com/jlyuv2xnwktq.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is heading</h2>
+    <p id="firstP">This is my para</p>
+    <h2>This is my heading</h2>
+    <p id="a2ndP">This is my para</p>
+    <!-- id should always start with a lower case alphabet  -->
+    <h2>This is my heading</h2>
+    <p id="a3rdP">This is my para</p>
+    <h2>This is my heading</h2>
+    <p id="a4thP">This is my para</p>
+</body>
+
+</html>

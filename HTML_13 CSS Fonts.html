@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTS in CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <!-- another style  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <style>
+        p {
+            font-family: 'Splash', cursive;
+            font-size: 30pt;
+            line-height: 4.3em;
+            /* 4.3em mean 4.3*parent font size(30pt)  */
+        }
+
+        h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 50px;
+            /* 1 pixel = 1 inch / 96 */
+        }
+
+        span {
+            font-weight: bolder;
+            font-size: 3rem;
+            font-family: 'Rubik Moonrocks', cursive;
+            /* 3rem mean 3*root element font size(30pt)  */
+            /* 1rem therefore takes on the value which is given to the font-size of the root element. This means that 1 REM keeps the same value throughout your whole CSS code. */
+        }
+
+        /* pre-installed fonts in OS are known as web saved font  */
+    </style>
+</head>
+
+<body>
+    <h2>CSS Fonts</h2>
+    <p>Lets play with fonts</p>
+    <span>Lets play with fonts</span>
+    <span>Lets play with fonts</span>
+</body>
+
+</html>
+
+<!-- The font-family property specifies a list of fonts, from highest priority to lowest. Font selection does not stop at the first font in the list that is on the user's system. Rather, font selection is done one character at a time, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. When a font is only available in some styles, variants, or sizes, those properties may also influence which font family is chosen. -->

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model, paddings and Margins</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        /*  * is used to set default values for all attribute, until they are changed, below */
+        body{
+            background-color: rgb(9 181 82);
+        }
+        .container{
+            background-color: gold;
+            border: dashed 4px rgb(53, 53, 129);
+            /* margin-top: 18px;
+            padding-left: 25px;
+            padding-right: 25px; */ 
+            /* padding comes inside of border */
+            /* margin is space outside the border  */
+            /* padding:25px 60px 50px 20px;     */
+            /* padding\margin: top right left bottom; */
+            padding: 40.3px 47px;
+            margin: 30px 20px;
+            /* padding: x(top & bottom) y(right & left); */
+            border-radius: 25px;
+            width: 200px;
+            /* width of elements consists of margin and padding, so if any of them changes width also changes, if not used box-sizing */
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Box Model, paddings and Margins</h2>
+        <p id="firstP">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed corrupti minus atque ratione rerum eius,
+            deserunt, exercitationem qui illum sequi ex, porro recusandae odio vero. Tenetur aperiam magni nemo fuga.
+        </p>        
+    </div>
+
+    <div class="container">
+        <h2>Box Model, paddings and Margins</h2>
+        <p id="firstP">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed corrupti minus atque ratione rerum eius,
+            deserunt, exercitationem qui illum sequi ex, porro recusandae odio vero. Tenetur aperiam magni nemo fuga.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Box Model, paddings and Margins</h2>
+        <p id="firstP">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed corrupti minus atque ratione rerum eius,
+            deserunt, exercitationem qui illum sequi ex, porro recusandae odio vero. Tenetur aperiam magni nemo fuga.
+        </p>
+    </div>
+</body>
+
+</html>

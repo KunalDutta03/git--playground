@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Display Property 2</title>
+    <style>
+        body{
+            background-color: rgb(8, 235, 228);
+        }
+        header {
+            background-color: rgb(247, 101, 22);
+            color: rgb(255, 255, 255);
+            margin: auto;
+            border: 6px solid rgb(236, 243, 38);
+            width: 377px;
+            align-items: center;
+        }
+
+        /* header, h and div are both block elements, so their width and height can be changed; takes a lot space*/
+        /* Displays an element as an inline element (like span, em, a). Any height and width properties will have no effect takes a min amount of space */
+        /* img is a block-inline, Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values */
+        h3 {
+            text-align: center;
+            font-family: 'Acme';
+            margin: 0px;
+            font-size: 35px;
+            
+        }
+
+        img {
+            display: block;
+            width: 130px;
+            margin: auto;
+        }
+        .box{
+            color: rgb(3, 45, 45);
+            border: 3px dotted mediumblue;
+            background-color: coral;
+            margin: 6px;
+            padding: 23px 43px;
+            width: 24%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://icon-library.com/images/smile-icon-png/smile-icon-png-8.jpg" alt="">
+        <h3>Welcome to my Website</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae veniam et totam. Dolore fugiat
+                odio illo porro fugit laudantium id laborum perspiciatis, perferendis at quis eius cum necessitatibus
+                voluptatibus!</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae veniam et totam. Dolore fugiat
+                odio illo porro fugit laudantium id laborum perspiciatis, perferendis at quis eius cum necessitatibus
+                voluptatibus!</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae veniam et totam. Dolore fugiat
+                odio illo porro fugit laudantium id laborum perspiciatis, perferendis at quis eius cum necessitatibus
+                voluptatibus!</p>
+        </div>
+    </div>
+</body>
+
+</html>
